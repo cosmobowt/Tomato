@@ -1,0 +1,47 @@
+body {
+	background-color: #f9ed69;
+}
+
+.main-section {
+	background-image: url(../images/main-image.jpg);
+	min-height: 26rem;
+	background-position: center;
+	background-size: cover;
+}
+
+.search-bar {
+	text-align: center;
+	border: none;
+	padding: 2rem 12rem;
+	background-color: rgba(f, f, f, 0.5);
+}
+
+.card {
+	margin-top: 2rem;
+	border-radius: .7rem;
+	text-align: center;
+}
+
+img {
+	max-height: 300px;
+	max-width: 300px;
+	border-top-left-radius: .7rem;
+	border-top-right-radius: .7rem;
+}
+#footer {
+	background-color: #212121;
+}
+
+@media (max-width: 767px) {
+	.main-section {
+		min-height: 23rem;
+	}
+
+	.search-bar {
+		padding: 2rem 7rem;
+	}
+
+	.fix {
+		padding-left: 6rem;
+	}
+}
